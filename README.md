@@ -15,20 +15,21 @@ A Flutter app that allows users to view a list of movies, search and mark them a
 
 
 ## Plugins used
-  equatable
-  flutter_bloc
-  dartz
-  http
-  flutter_modular
-  flutter_svg
-  hive
-  hive_flutter
-  intl
-  connectivity_plus
-  shimmer
-  cached_network_image
+  Equatable, flutter_bloc, dartz, http, flutter_modular, flutter_svg, hive, hive_flutter, intl, connectivity_plus,shimmer, cached_network_image.
 
- Clone the repository:
+## Folder Structure
+  1. main.dart
+  2. Features - data         - datasource
+                             - models
+                             - repositories
+              - domain       - entities
+                             - repositories
+                             - usecases
+              - presentation - cubit
+                             - pages
+                             - widgets
+
+##  Clone the repository:
 
    git clone https://github.com/HarithaNarayanam/MyMovies.git
 
