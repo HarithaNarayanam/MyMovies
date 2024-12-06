@@ -19,16 +19,11 @@ A Flutter app that allows users to view a list of movies, search and mark them a
 
 ## Folder Structure
   1. main.dart
-  2. Features - data         - datasource
-                             - models
-                             - repositories
-              - domain       - entities
-                             - repositories
-                             - usecases
-              - presentation - cubit
-                             - pages
-                             - widgets
-
+  2. data - datasource,models,repositories
+  3. domain - entities,repositories,usecases
+  4. presentation - cubit,pages,widgets
+                    
+                     
 ##  Clone the repository:
 
    git clone https://github.com/HarithaNarayanam/MyMovies.git
